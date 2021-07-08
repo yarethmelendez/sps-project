@@ -12,11 +12,11 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jetty.version>9.4.38.v20210224</jetty.version>
+    <jetty.version>9.4.41.v20210224</jetty.version>
 
     <!-- Project-specific properties -->
     <exec.mainClass>com.google.sps.ServerMain</exec.mainClass>
-    <googleCloudProjectId>YOUR_PROJECT_ID_HERE</googleCloudProjectId>
+    <googleCloudProjectId>summer21-sps-27</googleCloudProjectId>
   </properties>
 
   <dependencies>
