@@ -1,0 +1,168 @@
+/* LogIn Stylesheet*/
+
+body{
+
+    font-family: 'Nunito';
+    background: linear-gradient(120deg,#FDB196,#FAD2A7,#FBEAC8,#B1D9CD,#93C2C6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.content h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.content form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .textFields {
+    position: relative;
+    border-bottom: 2px;
+    margin: 30px 0;
+}
+.textFields input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.textFields label{
+   position: absolute;
+   top: 50%;
+   left:5px;
+   color: #adadad;
+   transform: translateY(-50%);
+   font-size: 15px;
+   pointer-events: none;
+   transition: .5s;
+}
+.textFields span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #93C2C6;
+    transition: .5s;
+}
+.textFields input:focus ~ label,
+.textFields input:valid ~ label {
+    top: -5px;
+    color: #93C2C6;
+}
+
+.textFields input:focus ~ span::before,
+.textFields input:valid ~ span::before{
+    width: 100%;
+}
+
+input[type= "submit"] {
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: #93C2C6;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: 'Nunito';
+  color: #CAF0F6;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  justify-content: center;
+}
+input[type= "submit"]:hover{
+  border-color:#B1D9CD ;
+  transition: .5s;
+}
+.signUpLink {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.signUpLink a{
+  color: #93C2C6;
+  text-decoration: none;
+}
+.signUpLink a:hover{
+  text-decoration: underline;
+}
+
+/* SignUp Stylesheet*/
+
+.container {
+  font-family: 'Nunito';
+  background: linear-gradient(120deg,#C0DEDA,#C2CBE4,#F4F3EA,#F7E7DC,#EED3E5, #D4C4E9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.contentContainer{
+  width: 400px;
+  height: 660;
+  background: white;
+  border-radius: 10px;
+}
+.contentContainer h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+.formContent form{
+  width: 300px;
+  margin-left: 10%;
+}
+.formContent label{
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  pointer-events: none;
+  transition: .5s;
+
+}
+.formContent input {
+  font-size: 17px;
+  font-family: 'Nunito';
+  width: 100%;
+  padding: 7px;
+  color: #666666;
+  border: none;
+  border-bottom: 1px solid #93C2C6;
+  outline: none;
+
+}
+
+.contentContainer input[type= "submit"] {
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  margin-top: 20px;
+  background: #93C2C6;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #CAF0F6;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  justify-content: center;
+}
+.contentContainer input[type= "submit"]:hover{
+  border-color:#B1D9CD ;
+  transition: .5s;
+
+}
