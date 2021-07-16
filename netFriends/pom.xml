@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.google.sps</groupId>
-  <artifactId>portfolio</artifactId>
+  <artifactId>netFriends</artifactId>
   <version>1</version>
 
   <properties>
@@ -31,12 +31,12 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-server</artifactId>
-      <version>${jetty.version}</version>
+      <version>11.0.6</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-annotations</artifactId>
-      <version>${jetty.version}</version>
+      <version>11.0.6</version>
     </dependency>
   </dependencies>
 
