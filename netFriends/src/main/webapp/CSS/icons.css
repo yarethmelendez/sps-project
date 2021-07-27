@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: white;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/*Nav bar*/
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,15,80,0.45);
+    border-radius: 25px;
+}
+.navbar text{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    font-family: 'Nunito';
+    font-size: 36px;
+    color: rgba(6, 69, 87, 0.63);
+}
+.navbar span {
+    float: right;
+    margin-right: 30px;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    font-size: 36px;
+}
+.navbar span a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 6px 13px;
+    transition: .5s;
+}
+.navbar span a.active,
+.navbar span a:hover {
+    background: rgb(141, 137, 137);
+    border-radius: 20px;
+
+}

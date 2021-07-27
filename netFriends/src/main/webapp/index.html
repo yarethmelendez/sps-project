@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Team 27 Web App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-<body class= "profile">
-    <header id="showcase">
-      <div class= "pf">
-        <h1>Net-Friends</h1>
-        <p>Make friends, share stories, have fun!</p>
-        <a href="login.html" class="button">Login</a>
-        <a href="signup.html" class="button2">Sign Up</a>
-      </div>
-    </header> 
-</body>
+  <body>
+    <div class="content">
+       <text>
+         <h1> Login </h1>
+         <form method = "post">
+           <div class = "textFields">
+            <input type="text" required>
+            <label>Username</label>
+            <span></span>
+           </div>
 
+           <div class = "textFields">
+            <input type="password" required>
+            <label>Password</label>
+            <span></span>
+           </div>
+           
+            <input type= "button" value= "Login"  onclick="location.href='profile.html'">
+
+           <div class= "signUpLink">
+             Don't have an account? <a href="signup.html"> Create one </a>
+           </div>
+         </form>
+       </text>
+    </div>
+
+  </body>
 </html>
