@@ -14,13 +14,11 @@ html {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 0 20px;
 }
 body{
-  display: grid;
   background: linear-gradient(120deg,#C0DEDA,#C2CBE4,#F4F3EA,#F7E7DC,#EED3E5, #D4C4E9);
-margin-top: 5px;
+  margin-top: 5px;
   
 }
 #chat-container{
@@ -36,6 +34,7 @@ margin-top: 5px;
   background: #fff;
   border-radius: 10px;
   margin-left:15%;
+  margin-top: 2px;
 
 }
 #search-container,
@@ -48,10 +47,9 @@ margin-top: 5px;
   width: 40px;
 }
 #search-container{
-  display: gird;
+  display: grid;
   align-items: center;
   padding: 0 20px;
-  grid-area: search-container;
   border-radius: 10px 0 0 0;
   box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0, 75);
   z-index: 1;
