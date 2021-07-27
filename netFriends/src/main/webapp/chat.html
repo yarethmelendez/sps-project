@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/chat.css">
+    <link rel="stylesheet" href="./CSS/icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+     <nav class="navbar">
+        <text><i><b>Net-Friends</b></i></text>
+        <a href="index.html"> <span class="material-icons">logout</span></a>
+        <a href="profile.html"> <span class="material-icons">account_circle</span> </a>
+        <a href="profilesList.html"> <span class="material-icons">contacts</span> </a>
+        <a href="chat.html"> <span class="material-icons">textsms</span> </a>     
+    </nav>
+
+  <div id="chat-container">
+    <div id="search-container">
+      <input type="text" placeholder="Search" />
+    </div>
+    <div id="conversation-list">
+      <div class="conversation active">
+        <img src= "./img/aboutme.jpeg"alt="Siham Abdi" />
+        <div class="title-text">Siham Abdi  </div>
+        <div class="created-date">  30 secs ago </div>
+        <div class="conversation-message">Hi Siham! I am Yareth. It's nice to meet you too! </div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/tae.jpeg" alt="Taehyung" />
+        <div class="title-text">Taehyung </div>
+        <div class="created-date">  3 min ago </div>
+        <div class="conversation-message">Wow! I also like to drink coffee! </div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/oprah.jpeg" alt="Oprah Winfrey" />
+        <div class="title-text">Oprah Winfrey </div>
+        <div class="created-date">  1 day ago  </div>
+        <div class="conversation-message">yes I love how python does that.  </div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/zayn.png" alt="Zayn Malik" />
+        <div class="title-text"> Zayn Malik </div>
+        <div class="created-date">  3 days ago  </div>
+        <div class="conversation-message">I used to be in a band called One Direction. </div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/sarah.png" alt="Sarah Momes" />
+        <div class="title-text"> Sarah Momes </div>
+        <div class="created-date">  1 week ago </div>
+        <div class="conversation-message">Thank you. I appreaciate that!  </div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/samia.jpeg" alt="Samia Abdi" />
+        <div class="title-text"> Samia Abdi  </div>
+        <div class="created-date">  1 weeks ago </div>
+        <div class="conversation-message">I am from Minnesota, where are you from?</div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/iman.jpeg" alt="Iman Stilinksi" />
+        <div class="title-text"> Iman Stilinski  </div>
+        <div class="created-date">  2 weeks ago </div>
+        <div class="conversation-message">I love tiktok! Whats your username?</div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/maizah.jpeg" alt="Maizah Aden" />
+        <div class="title-text"> Maziah Aden  </div>
+        <div class="created-date">  1 month ago</div>
+        <div class="conversation-message"> Thats interesting, tell me more about yourself!</div>
+    </div>
+    <div class="conversation ">
+        <img src= "./img/mustaf.jpeg" alt="Mustaf Abdi" />
+        <div class="title-text"> Mustaf Abdi </div>
+        <div class="created-date">  1 month ago </div>
+        <div class="conversation-message">See you at the movie theater tonight! </div>
+    </div>
+  </div>
+    <div id="new-message-container">
+      <a href="#">+</a>
+    </div>
+     <div id="chat-title">
+       <span>Siham Abdi</span>
+       <img src="./img/trash-logo.png" alt="Delete Conversation" />
+    </div>
+    <div id="chat-message-list">
+      <div class="message-row you-message">
+        <div class="message-content">
+          <div class="message-text"> Hi Siham! I am Yareth. It's nice to meet you too!</div>
+          <div class= "message-time">30 secs ago </div>
+        </div>
+      </div>
+      <div class="message-row other-message">
+        <div class="message-content">
+          <img src= "./img/aboutme.jpeg"alt="Daryl Duckmanton" />
+          <div class="message-text"> Hi my name is Siham! It's really nice to meet you!</div>
+          <div class= "message-time"> 1 min ago </div>
+        </div>
+       </div>
+    </div>
+    <div id="chat-form">
+      <img src="./img/attachment-logo.jpeg" alt="Add Attachment" />
+      <input type="text" placeholder="Type a message" /> 
+    </div>
+  </div>
+</body>
+</html>

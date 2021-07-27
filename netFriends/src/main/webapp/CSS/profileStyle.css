@@ -1,0 +1,137 @@
+/* Profile Stylesheet*/
+body{
+    font-family: 'Nunito';
+    background: linear-gradient(120deg,#FDB196,#FAD2A7,#FBEAC8,#B1D9CD,#93C2C6);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.profile {
+    margin: 0;
+    font-family: 'Nunito';
+    font-size: 17px;
+    color: #957DAD;
+    line-height: 1.6;
+}
+
+.box{
+  box-sizing: border-box;
+  width: 153px;
+  height: 153px;
+  border:2px solid  #adabdb;
+  box-shadow: -3px -3px 7px #ffffff73,
+  3px 3px 5px rgba(94,104,121,0.288);
+  border-radius: 50%;
+  background-color: #adabdb;
+  margin-top: 125px;
+  overflow: hidden;
+  transition: all 1s;
+}
+.box:hover{
+  width: 360px;
+  height: 500px;
+  border-radius: 5px;
+}
+.pf img{
+  box-sizing: border-box;
+  width:149px;
+  height:149px;
+  border-radius:50%;
+  margin:0;
+  border:5px solid rgb(205, 180, 230);
+  padding: 3px;
+  background-color: white;
+  overflow: hidden;
+  transition: all 1s;
+
+}
+.box:hover img{
+  width: 100px;
+  height: 100px;
+  margin:20px 35% ;
+}
+.pf hr{
+  width:500px;
+  line-height:20px;
+  margin:10px 10px 10px 10px;
+}
+.pf input[type="text"],
+.pf input[type="text"],
+.pf input[type="text"] {
+  display: block;
+  box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 30px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background: none;
+}
+.pf input[type="text"]{
+  margin-top: 25px;
+}
+
+.pf input[type="text"]:focus,
+.pf input[type="email"]:focus,
+.pf input[type="number"]:focus {
+  border-bottom: 2px solid #fff;
+  border-bottom-right-radius:20px;
+  color: #fff;
+  transition: 0.2s ease;
+  background: rgba(156, 10, 240, 0.212);
+  border-top: none;
+
+}
+
+
+.pf button{
+  border:1px solid #fff;
+  background-color: #957DAD;
+  color:white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  left:0;
+  margin:0px;
+  transition: all .3s;
+}
+.pf button:hover{
+  transform: scale(1.1);
+  background-color: rgba(240, 10, 152, 0.24);
+}
+.pf input[type="file"]{
+  display:none;
+}
+.pf label {
+  box-sizing: border-box;
+  width:40px;
+  height:20px;
+  background-color: #957DAD;
+  color:white;
+  border:1px solid #fff;
+  background-color: #957DAD;
+  color:white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.pf label:hover {
+  background-color: rgba(240, 10, 152, 0.24);
+  transform: scale(1.1);
+}
+.bs button {
+  background-color: #957DAD;
+  color: white;
+  font-family: 'Nunito';
+  float: left;
+  margin: 10px 0 0 18.2%;
+}
+
+

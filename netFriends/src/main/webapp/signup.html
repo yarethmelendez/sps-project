@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -11,30 +11,36 @@
   <body class = "container">
     <div class="contentContainer">
        <text>
-         <h1> SignUp </h1>
+         <h1> Signup </h1>
          <div class= "formContent">
-         <form method = "post">
+         <form ">
            <label>First Name</label>
-            <input type="text" placeholder="First Name" required>
+            <input type="text" name="name" placeholder="First Name" required>
 
            <label>Last Name</label>
-            <input type="text" placeholder="Last Name" required>
+            <input type="text" name="lastname" placeholder="Last Name" required>
 
            <label>Birthday</label>
-            <input type="date" placeholder="Birthday" required>
+            <input type="date" name="birthday" placeholder="Birthday" required>
 
            <label>Email</label>
-            <input type="email" placeholder="Email" required>
+            <input type="email" name="email" placeholder="Email" required>
 
-           <label>Interests</label>
-            <input type="text" placeholder="Interests" required>
-            
+           <label>Interest</label>
+            <select id="interest" name="interest">
+                <option value="sports">Sports</option>
+                <option value="technology">Technology</option>
+                <option value="music">Music</option>
+                <option value="art">Art</option>
+            </select>
+
            <label>Password</label>
-            <input type="password" placeholder="Password" required>
-            <input type="submit" value="Create Account">
+            <input type="password"  name="password" placeholder="Password" required> 
+            <input type="button"  onclick="location.href='profile.html'" value="Create Account">
           </div>
+          
             <div class= "signUpLink">
-              Already have an account? <a href="login.html"> Sign In! </a>
+              Already have an account? <a href="index.html"> Sign In! </a>
             </div>
          </form>
        </text>
